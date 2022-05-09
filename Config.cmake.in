@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+include("${CMAKE_CURRENT_LIST_DIR}/SDL2_SandboxTargets.cmake")
+include(CMakeFindDependencyMacro)
+find_dependency(SDL2 REQUIRED)
+find_dependency(SDL2_mixer REQUIRED)
+find_dependency(SDL2_ttf REQUIRED)
+find_dependency(SDL2_image REQUIRED)
+check_required_components(SDL2_Sandbox)

@@ -1,0 +1,31 @@
+*
+!src
+!src/**
+!tests
+!tests/**
+!CMakeLists.txt
+!Config.cmake.in
+!.gitignore
+!cmake
+!cmake/**
+
+
+# !*/
+# !src/*.h
+# !src/*.cpp
+# !src/*.c
+# !src/prefabs/*.h
+# !src/prefabs/*.cpp
+# !src/gui/*.cpp
+# !src/glad/*.h
+# !src/gui/*.h
+# !src/opengl/*.h
+# !src/opengl/*.cpp
+# !src/ecs/*.h
+# !src/ecs/*.cpp
+# !src/ecs/*.hpp
+# !src/ecs/components/*.cpp
+# !src/ecs/components/*.h
+# !src/ecs/systems/*.cpp
+# !src/ecs/systems/*.h
+# !src/**/CMakeLists.txt
